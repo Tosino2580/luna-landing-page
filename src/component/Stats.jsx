@@ -17,7 +17,7 @@ function Stats() {
     },
 };
   return (
-    <div className='py-10 bg-white/40 '>
+    <div className='py-10 bg-white/40'>
       <div className='w-4/5  m-auto flex flex-col md:flex-row justify-between items-center space-y-10 md:space-y-0'>
         <div className='w-full md:w-1/3'>
           <motion.img src={Pic} alt="" initial="hidden" whileInView="visible" viewport={{amount:0.5}} variants={imageVariant} className='w-full rounded-bl-4xl rounded-tr-4xl'/>

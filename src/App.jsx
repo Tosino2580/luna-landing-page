@@ -11,7 +11,7 @@ import Testimonial from './component/Testimonial'
 function App() {
 
   return (
-   <div className="bg-[url('/public/rose-petals.svg')] bg-cover">
+   <div className="bg-[url('/public/rose-petals.svg')] bg-cover overflow-hidden">
     <NavBar/>
     <Heros/>
     <Insights/>

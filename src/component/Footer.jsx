@@ -18,11 +18,11 @@ function Footer() {
   return (
     <div>
       <motion.div
-       initial="hidden"
-       whileInView="visible"
-       viewport={{ amount: 0.5 }}
-       variants={footerVariant}
-      className='w-4/5 m-auto grid md:grid-cols-4 gap-6 px-4 '>
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ amount: 0.5 }}
+        variants={footerVariant}
+        className='w-4/5 m-auto grid md:grid-cols-4 gap-6 px-4 '>
         <div>
           <h2 className='text-xl font-bold mb-2'>About Us</h2>
           <p className='text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, quia!</p>
@@ -67,7 +67,7 @@ function Footer() {
       <div className='text-center text-gray-600 mt-8 text-sm '>
         <p>&copy; {new Date().getFullYear()}Lunar . All rights Reserved</p>
       </div>
-      </div>
+    </div>
   );
 }
 
