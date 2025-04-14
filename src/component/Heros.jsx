@@ -1,5 +1,6 @@
 import React from 'react'
 import { IoPlay } from 'react-icons/io5'
+import HeroImage from "../assets/Hero.avif"
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
 const Heros = () => {
@@ -9,7 +10,7 @@ const Heros = () => {
             opacity: 1,
             x: 0,
             transition: {
-                duration: 0.2,
+                duration: 1.2,
                 ease: "easeInOut",
             },
         },
@@ -30,7 +31,7 @@ const Heros = () => {
             opacity: 1,
             x: 0,
             transition: {
-                duration: 0.2,
+                duration: 1.2,
                 ease: "easeInOut",
             },
         },
@@ -53,7 +54,7 @@ const Heros = () => {
                 </motion.button>
             </div>
             <div>
-                <motion.img src="/src/assets/Hero.avif" alt="" initial="hidden" whileInView="visible" viewport={{amount:0.5}} variants={imageVariant}className='w-80 h-80 rounded-full' />
+                <motion.img src={HeroImage} alt="" initial="hidden" whileInView="visible" viewport={{amount:0.5}} variants={imageVariant}className='w-80 h-80 rounded-full' />
             </div>
         </div>
     )
